@@ -1,8 +1,8 @@
 # drop-that-key
 
-## Todo
-[ ] OSX get last imessage and send it by mail
-[ ] Linux ...
+## Todo  
+[ ] OSX get last imessage and send it by mail  
+[ ] Linux ...  
 
 ## Links
 
