@@ -2,7 +2,7 @@
 
 ## Slide
 
-(https://slides.com/t3kstiil3/drop-that-key/)
+https://slides.com/t3kstiil3/drop-that-key/
 
 ## Todo  
 - [ ] OSX get last imessage and send it by mail  
