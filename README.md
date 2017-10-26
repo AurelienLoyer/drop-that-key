@@ -5,8 +5,11 @@
 https://slides.com/t3kstiil3/drop-that-key/
 
 ## Todo  
-- [ ] OSX get last imessage and send it by mail  
-- [ ] Linux ...  
+- [ ] Test disable hack if jumper active (see issue #1)
+- [ ] OSX get last imessage and send it by mail  
+- [ ] Test somethink using camera ?
+- [ ] KeyLogger ?
+- [ ] Linux ...  
 
 ## Links
 
