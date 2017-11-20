@@ -2,7 +2,7 @@
 
 ## Slide
 
-https://slides.com/t3kstiil3/drop-that-key/
+https://slides.com/aurelienloyer/drop-that-key/
 
 ## Todo  
 - [ ] Test disable hack if jumper is present ( see issue #1 )
