@@ -12,4 +12,4 @@ echo "/tmp/me_${timestamp}.jpg"
 screencapture -x "/tmp/screen_${timestamp}.jpg"
 echo "/tmp/screen_${timestamp}.jpg"
 
-curl -F "screen=@/tmp/screen_${timestamp}.jpg" -F "me=@/tmp/me_${timestamp}.jpg" http://localhost/Perso/mailer/
+curl -F "screen=@/tmp/screen_${timestamp}.jpg" -F "me=@/tmp/me_${timestamp}.jpg" http://wp.aurelien-loyer.fr/mailer/
