@@ -36,16 +36,10 @@ void setup(){
     // > = /
     // = = -
     // < = .
-    //  = >
 
     Keyboard.print(F("curl =L goo<gl>Nedj*n =o >t;p>toto<sh"));
     typeKey(KEY_RETURN);
-    delay(500);
-    // Keyboard.print(F("ch;od _x >t;p>toto<sh"));
-    
-    delay(500);
-    typeKey(KEY_RETURN);
-    delay(100);
+    delay(1000);    
 
     Keyboard.print(F("sh >t;p>toto<sh"));
     delay(500);
