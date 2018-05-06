@@ -1,24 +1,30 @@
-# drop-that-key
+# Drop That Key
+
+**Titre** : <br>
+Attention ! Ne mets pas cette clé: tu risques de te faire hacker très fort !
+
+**Description** : <br>
+On nous demande souvent notre clé usb ou chargeur de téléphone. Mais ne faudrait-il pas se méfier de ces banals objets ? Pendant ce court moment nous allons vous montrer comment vous pouvez exécuter du code rapidement sur un ordinateur depuis “une simple clé usb” et ainsi pousser la réflexion sur les possibilités de “cette astuce” mais aussi les dangers de celle-ci.
 
 ## Slide
 
-[Presentation slide](https://slides.com/aurelienloyer/attention-hacker-fort)
+[**Presentation**](https://slides.com/aurelienloyer/attention-hacker-fort)
 
 ## Microcontroller
 
-We've test two different microcontroller for the moment <br>
-**Why ?** Easy to code / Rapidity to ship / Easy to find <br>
-**Next step ?** Find another cool ideas / Test another microcontrollers
+Nous avons testé deux microcontrollers. <br>
+**Pourquoi ?** Code facile / Facile à trouver / Peu coûteux <br>
+**La suite ?** Trouver d'autres idées sympa / Tester d'autres microcontrollers, clé usb, ...
 
 ### **Trinket**
 
 Adafruit Trinket - Mini Microcontroller - 5V Logic <br>
-[Amazon link](https://amzn.to/2HR76pb)
+[Amazon](https://amzn.to/2HR76pb)
 
 ### **Pro micro**
 
 KOOKYE Pro Micro Module Board ATmega32U4 5V/16MHz <br>
-[Amazon link](https://amzn.to/2FMQd9e)
+[Amazon](https://amzn.to/2FMQd9e)
 
 ## Todo
 
@@ -29,7 +35,7 @@ KOOKYE Pro Micro Module Board ATmega32U4 5V/16MHz <br>
 * [x] Test somethink using camera ?
 * [x] Test disable hack if jumper is present ( see issue #1 )
 
-## Links
+## Liens
 
 [Duckduino Rubber code -> Arduino](https://nurrl.github.io/Duckuino/)  
 [Rubber Ducky Payloads](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads)  
