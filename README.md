@@ -18,11 +18,15 @@ Nous avons testé deux microcontrollers. <br>
 
 ### **Trinket**
 
+<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/637110/images/4353770/trinket.png" alt="Trinket" width="300"/> <br>
+<br>
 Adafruit Trinket - Mini Microcontroller - 5V Logic <br>
 [Amazon](https://amzn.to/2HR76pb)
 
 ### **Pro micro**
 
+<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/637110/images/4353771/pro_micro.png" alt="Pro micro" width="300"/> <br>
+<br>
 KOOKYE Pro Micro Module Board ATmega32U4 5V/16MHz <br>
 [Amazon](https://amzn.to/2FMQd9e)
 
