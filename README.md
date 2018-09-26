@@ -39,6 +39,10 @@ KOOKYE Pro Micro Module Board ATmega32U4 5V/16MHz <br>
 * [x] Test somethink using camera ?
 * [x] Test disable hack if jumper is present ( see issue #1 )
 
+## Utiles
+
+* [🛠 Réparer bootloader trinket](https://learn.adafruit.com/introducing-trinket/repairing-bootloader)
+
 ## Liens
 
 [Duckduino Rubber code -> Arduino](https://nurrl.github.io/Duckuino/)  
