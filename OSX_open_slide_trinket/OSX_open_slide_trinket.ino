@@ -1,11 +1,17 @@
 #include <TrinketKeyboard.h>
 
 void setup() {
-  // put your setup code here, to run once:
   TrinketKeyboard.begin();
-  TrinketKeyboard.print("Hello World!");
+  TrinketKeyboard.print(" https://slides.com/aurelienloyer/attention-hacker-fort ");
+
+  delay(200);
+
+  TrinketKeyboard.pressKey(0, 0x28);
+  delay(10);
+
+  TrinketKeyboard.pressKey(0, 0);
+  delay(300);
 }
 
 void loop() {
 }
-
